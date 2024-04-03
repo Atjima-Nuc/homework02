@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 72px;
+  padding: 8px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(214, 210, 210);
+}
+
+img {
+  width: 189px;
+  height: auto;
+}
+
+.middle-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.middle-nav a {
+  color: #1f2d4e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.right-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.noti-nav {
+  position: relative;
+}
+
+.number {
+  background-color: red;
+  color: white;
+  border-radius: 50% 50% 50% 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-nav a {
+  color: #1f2d4e;
+  text-decoration: none;
+}
+
+.content {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.content h1 {
+  font-size: 48px;
+  font-weight: 500px;
+  height: 170px;
+  width: 100%;
+  padding: 80px 0 calc(170px - 48px - 80px) 0;
+}
+
+.all-cards {
+  display: flex;
+  height: calc(100vh - 72px - 8px - 170px);
+  width: 100%;
+}
+
+.left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.card {
+  width: 95%;
+  height: 250px;
+  border: 1px solid rgb(214, 210, 210);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.inner-box {
+  position: relative;
+}
+
+.inner-box img {
+  width: 170px;
+  height: 170px;
+  border-radius: 12px;
+}
+
+.inner-box-detail {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.inner-box-detail svg {
+  background-color: white;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+h4 {
+  color: white;
+}
+
+.inner-box-detail p {
+  color: white;
+}
+
+.right-box {
+  height: 170px;
+  width: 220px;
+}
+
+.right-box p {
+  font-size: 30px;
+}
+
+.level-bar {
+  display: flex;
+}
+
+select {
+  border: 2px solid #00dcb5;
+  width: 100px;
+}
+
+.price {
+  font-size: large;
+}
+
+.right-side {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.right-card {
+  width: 95%;
+  height: 400px;
+  border: 1px solid rgb(214, 210, 210);
+  border-radius: 8px;
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-right-card {
+  height: 65%;
+  border-bottom: 1px solid rgb(214, 210, 210);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.md-right-card {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-text {
+  font-weight: lighter;
+}
+
+
+.bin svg {
+  border: 1.7px solid #00dcb5;
+  border-radius: 50% 50% 50% 50%; 
+}
+
+.promotion-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion-section input {
+  width: 60%;
+  height: 40px;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 5px;
+}
+
+.promotion-section button {
+  border: 2px solid #00dcb5;
+  color: #00dcb5;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.under-right-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.under-right-card button{
+  background-color: #00dcb5;
+  color: #1f2d4e;
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+}
+
